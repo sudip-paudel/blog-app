@@ -1,73 +1,14 @@
-# Welcome to your Lovable project
+# Project Overview
 
-## Project info
+This project is built using local dummy data and showcases a comprehensive set of features, including:
 
-**URL**: https://lovable.dev/projects/13de21b0-c6c9-48c2-8c4b-7df9282cca94
+- **Form Validation**: Implemented using [Zod](https://github.com/colinhacks/zod) for robust and type-safe validation.
+- **Filtering and Searching**: Users can filter and search posts by category and title.
+- **Rich Text Editor**: Integrated a lexical editor for content creation, supporting **bold**, *italic*, and _underline_ formatting.
+- **Data Fetching**: Leveraged [React Query](https://react-query.tanstack.com/) for efficient and optimized data fetching.
+- **CRUD Operations**: Supports adding, editing, and deleting posts seamlessly.
+- **Infinite Scrolling**: Posts load dynamically as users scroll for a smooth browsing experience.
+- **State Management**: Utilized [Zustand](https://zustand-demo.pmnd.rs/) for simple and scalable state management.
+- **UI Styling**: Designed with [Tailwind CSS](https://tailwindcss.com/) for a responsive and modern user interface.
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/13de21b0-c6c9-48c2-8c4b-7df9282cca94) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/13de21b0-c6c9-48c2-8c4b-7df9282cca94) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project demonstrates a clean, maintainable, and fully functional React application with an emphasis on user experience and modern front-end practices.
